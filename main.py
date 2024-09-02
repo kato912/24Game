@@ -8,6 +8,8 @@ def Start_game():
         print(problem_List)
     if int(problem_List[0]) == 24:
         print("You win")
+    else:
+        print("You lost")
 def Categorize_input(User_input):#ทำการแบ่งค่าinput ออกป็น3ชุด operator,a,b
     Index_op = 0
     operator = ['+','-','*','/']
