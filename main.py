@@ -3,7 +3,7 @@ import random as rd
 def Start_game():
     problem_List = create_Problem()
     print(problem_List)
-    for i in range(3):
+    len(problem_List) > 1:
         problem_List = get_input(problem_List)
         print(problem_List)
     if int(problem_List[0]) == 24:
